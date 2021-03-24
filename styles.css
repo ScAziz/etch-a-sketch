@@ -1,7 +1,11 @@
 #grid-container {
     display: grid;
-    max-width: 31.25em;
-    max-height: 31.25em;
-    margin: 10em auto;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 10% auto;
     border: 2px solid black;
+}
+
+.grid-element {
+    border: 1px solid grey;
 }
