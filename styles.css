@@ -12,10 +12,13 @@
 }
 
 /*button styling */
-
-
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
 #clear {
     position: fixed;
+    align-self: center;
     left: 50%;
     width: 7em;
     height: 3em;
@@ -24,3 +27,6 @@
     font-weight: bold;
     border: none;
 }
+
+#clear:focus-visible {
+    outline: 0;
