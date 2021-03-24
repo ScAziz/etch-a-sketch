@@ -1,11 +1,26 @@
+/* grid styling */
 #grid-container {
     display: grid;
     max-width: 500px;
     min-height: 500px;
-    margin: 10% auto;
+    margin: 5em auto;
     border: 2px solid black;
 }
 
 .grid-element {
     border: 1px solid grey;
+}
+
+/*button styling */
+
+
+#clear {
+    position: fixed;
+    left: 50%;
+    width: 7em;
+    height: 3em;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    font-weight: bold;
+    border: none;
 }
