@@ -26,3 +26,14 @@ function fillGrid(size){
 function changeColor(event){
   event.target.style.backgroundColor = 'black';
 }
+
+function clearGrid() {
+  const gridElements = document.querySelectorAll('.grid-element');
+
+  gridElements.forEach(
+    element => element.style.backgroundColor = 'white'
+    );
+}
+
+const clearButton = document.getElementById('clear');
+clearButton.addEventListener('click', clearGrid);
